@@ -23,7 +23,7 @@ const refresh = await listen('refresh', (event) => {
 	// event.payload is the payload object
 	console.log(event);
 });
-const refresh = await listen('openDirectory', (event) => {
+const openDirectory = await listen('openDirectory', (event) => {
 	// event.event is the event name (useful if you want to use a single callback fn for multiple event types)
 	// event.payload is the payload object
 	console.log(event);
